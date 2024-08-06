@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DUTMaintenance">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDVBN1dA_xZYfxflGSzUTqQ5s5M_Idljo4"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+        <activity
+            android:name=".AllAdminIssueActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true"></activity>
+
+        <activity
+            android:name=".IssueDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertIssuePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostIssueActivity"
+            android:exported="false"
+            android:label="DUTMaintenance Issue Post" />
+        <activity
+            android:name=".AllIssueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DUTHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DUTRegistrationActivity"
+            android:exported="false" />
+        <activity
+
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name = ".DutMaintenceWidgetprovider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_appwidget_info" />
+        </receiver>
+    </application>
+
+</manifest>

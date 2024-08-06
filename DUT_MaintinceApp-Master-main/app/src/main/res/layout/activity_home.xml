@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    tools:context=".DUTHomeActivity">
+
+
+
+    <ImageView
+        android:id="@+id/img_slider"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="450dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="32dp"
+        android:src="@drawable/anim_slideshow" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_allIssue"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_buttontwo"
+            android:fontFamily="@font/convergence"
+            android:text="See All Issue Posts"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_PostIssue"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_buttontwo"
+            android:fontFamily="@font/convergence"
+            android:text="Post A Issue"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/icon_website"
+            android:layout_width="40dp"
+            android:layout_height="37dp"
+            android:layout_marginRight="70dp"
+            android:clickable="true"
+            android:onClick="openWebsite"
+            android:src="@drawable/internet" />
+
+        <ImageView
+            android:id="@+id/icon_another"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-42.5dp"
+            android:clickable="true"
+            android:onClick="openYoutube"
+            android:src="@drawable/youtube" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="46dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="-47.5dp"
+            android:onClick="OpenInsta"
+            app:srcCompat="@drawable/instagram" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

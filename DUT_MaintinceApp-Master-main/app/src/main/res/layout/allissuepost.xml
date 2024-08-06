@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="&#8942;"
+            android:textSize="20sp"
+            android:id="@+id/txt_options"
+            android:layout_gravity="right"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/all_issue_post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/convergence"
+            android:padding="5dp"
+            android:text="Issue Title"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/all_issue_post_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/convergence"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:text="Issue Location"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/all_issue_post_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/convergence"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:text="Issue Description"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="177dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/warning"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="177dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/checked"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/issue_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/convergence"
+            android:text="PENDING"
+            android:textAlignment="center"
+            android:textColor="#E30D51"/>
+
+        <ImageView
+            android:id="@+id/issue_image_real"
+            android:layout_width="253dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

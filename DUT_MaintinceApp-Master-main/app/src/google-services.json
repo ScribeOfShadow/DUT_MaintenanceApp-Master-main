@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "555468386057",
+    "firebase_url": "https://dutmaintenance-d3b07-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dutmaintenance-d3b07",
+    "storage_bucket": "dutmaintenance-d3b07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555468386057:android:836a84b61217088c316dd8",
+        "android_client_info": {
+          "package_name": "com.example.dutmaintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555468386057-f6bjlf5obe6eksf6ck9b5e33nrbpttde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaZmskhSJmZleZ2Sb1Q4FPMNxDP-joG7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555468386057-f6bjlf5obe6eksf6ck9b5e33nrbpttde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

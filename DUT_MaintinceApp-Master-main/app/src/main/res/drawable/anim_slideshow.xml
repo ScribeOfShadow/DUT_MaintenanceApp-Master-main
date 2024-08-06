@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/slidepwertoo"/>
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/slidepwer"/>
+
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/slidesecond"/>
+
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/dutlogotwo"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/thinklearnzone"/>
+
+
+
+
+
+
+
+
+</animation-list>
